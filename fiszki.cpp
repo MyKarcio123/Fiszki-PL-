@@ -63,11 +63,6 @@ int main(){
                     cout<< txt_pol << "    " << txt_ang << '\n';
                 }
                 plik.close();
-                /*
-                for(int i =0;i<fiszki.size();i++){
-                cout << fiszki[i].polski << "    " << fiszki[i].angielski << endl;
-                        }
-                */
 
             }
         }else if(wybor==2)
@@ -157,4 +152,6 @@ int main(){
         }
     }while(true);
     fiszki.push_back(Fiszka());
+    cin.get();
+    cin.get();
 }
